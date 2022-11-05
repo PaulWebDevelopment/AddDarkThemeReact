@@ -1,0 +1,28 @@
+#root {
+  --primary: #2a9d8f;
+  --bg-color: #fff;
+}
+
+.theme-dark#root {
+  --primary: #264653;
+  --bg-color: #121212;
+}
+
+
+button {
+  background: var(--primary);
+
+  color: #fff;
+  padding: 20px 60px;
+  border: none;
+  font-size: 1em;
+}
+
+.App {
+  background-color: var(--bg-color);
+
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
